@@ -23,3 +23,8 @@ def test_subtractive_notation():
 
 def test_combined_subtractive():
     assert convert("XIX") == 19
+
+
+def test_tens_and_hundreds_subtractive():
+    assert convert("XL") == 40
+    assert convert("XC") == 90
